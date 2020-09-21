@@ -4,7 +4,7 @@ from django.views.generic import ListView, DetailView
 from . models import Producto
 # Create your views here.
 def home (request):
-    return HttpResponse ("Hola Mundo")
+    return HttpResponse ("Hola Mundo de nuevo")
 class ProductListView(ListView):
     model = Producto
 class ProductDetailView(DetailView):
